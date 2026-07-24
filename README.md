@@ -21,6 +21,4 @@ PERFORMANCE ON A PI 3:
   Defaults are kept at 640x480 to stay smooth on a Pi 3. If the video
   feels laggy, lower frame_width/frame_height in config.json (created
   next to this script after your first run), or increase the
-  time.sleep() in _mjpeg_generator() in the .py.
-
-Tip: 64-bit Raspberry Pi OS also has proper prebuilt OpenCV wheels, so pip install -r requirements.txt should just work — on 32-bit you’ll want the apt packages instead (python3-opencv etc.), or it can take a very long time compiling from source.
+  time.sleep() in _mjpeg_generator() in the 
