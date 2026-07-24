@@ -1,5 +1,5 @@
 # Darts-scorer
-Run the folder on your raspberry pi. It will tell you what you are missing when you run the file. It will use flask to create a web application and an api where you can connect via an ip address on port 5000. e.g(192.168.1.1:5000). For now it will only use a single camera I might work on adding multi camera support but I can't test it because I only have one camera. For now it isn't brilliant but I am not too sure on how to intergrate machine learning as most of this project was create by claude.
+Run the folder on your raspberry pi (or select debian distro). It will tell you what you are missing when you run the file. It will use flask to create a web application and an api where you can connect via an ip address on port 5000. e.g(192.168.1.1:5000). For now it will only use a single camera I might work on adding multi camera support but I can't test it because I only have one camera. For now it isn't brilliant but I am not too sure on how to intergrate machine learning as most of this project was create by claude.
 
 
 KNOWN LIMITATIONS - please read before relying on this:
@@ -11,3 +11,8 @@ KNOWN LIMITATIONS - please read before relying on this:
   snapshot for a quick correction, and why manual entry exists as a
   fallback - treat this as a scoring aid to keep an eye on, not a
   fully hands-off referee.
+
+
+I would recommend a 64bit raspberry pi 3 and above but anything that runs debian should be fine. Will be working on an arch version.
+
+As of right now all darts thrown are snapshotted and stored in RAM so the RAM will slowly fill up but should br fine. All snapshots are deleted when the program is stopped. You can run it in a venv but you can just run it in root.
