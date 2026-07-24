@@ -1,2 +1,2 @@
 # Darts-scorer
-#Run the folder on your raspberry pi. It will tell you what you are missing when you run the file. It will use flask to create a web application and an api where you can connect via an ip address on port 5000. e.g(192.168.1.1:5000). For now it will only use a single camera I might work on adding multi camera support but I can't test it because I only have one camera.
+Run the folder on your raspberry pi. It will tell you what you are missing when you run the file. It will use flask to create a web application and an api where you can connect via an ip address on port 5000. e.g(192.168.1.1:5000). For now it will only use a single camera I might work on adding multi camera support but I can't test it because I only have one camera.
