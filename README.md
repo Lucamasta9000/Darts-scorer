@@ -22,3 +22,5 @@ PERFORMANCE ON A PI 3:
   feels laggy, lower frame_width/frame_height in config.json (created
   next to this script after your first run), or increase the
   time.sleep() in _mjpeg_generator() in the .py.
+
+This is just a passion project so any and all help will be much appreciated.
