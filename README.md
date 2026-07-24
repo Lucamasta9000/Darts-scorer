@@ -16,3 +16,9 @@ KNOWN LIMITATIONS - please read before relying on this:
 I would recommend a 64bit raspberry pi 3 and above but anything that runs debian should be fine. Will be working on an arch version.
 
 As of right now all darts thrown are snapshotted and stored in RAM so the RAM will slowly fill up but should br fine. All snapshots are deleted when the program is stopped. You can run it in a venv but you can just run it in root.
+
+PERFORMANCE ON A PI 3:
+  Defaults are kept at 640x480 to stay smooth on a Pi 3. If the video
+  feels laggy, lower frame_width/frame_height in config.json (created
+  next to this script after your first run), or increase the
+  time.sleep() in _mjpeg_generator() in the .py.
