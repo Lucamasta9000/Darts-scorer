@@ -7,7 +7,7 @@ One self-contained script: point a USB webcam at your dartboard, run
 this, and open the printed URL from any phone/laptop on your network
 to calibrate the board and keep score for a game of 301/501/701.
 
-WHAT'S IN HERE (all in one file, so it's easy to copy to a Pi):
+WHAT'S IN HERE:
   - DartBoard    : dartboard geometry + pixel->score mapping (homography)
   - DartDetector : webcam capture thread + frame-diff dart detection
   - Game/Player/Dart : simple X01 scoring rules
