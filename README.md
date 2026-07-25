@@ -24,3 +24,5 @@ PERFORMANCE ON A PI 3:
   time.sleep() in _mjpeg_generator() in the .py.
 
 This is just a passion project so any and all help will be much appreciated.
+
+If you are experiencing issues while the program is running please use the debug version located here: https://github.com/Lucamasta9000/Dart-scorer-debug
